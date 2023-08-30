@@ -12,10 +12,18 @@ To use xCaseInsensitiveMap, you'll need to include the provided TypeScript file 
 1. Import the `xCaseInsensitiveMap` class into your TypeScript code:
 
    ```typescript
-   import { xCaseInsensitiveMap } from './xCaseInsensitiveMap';
+   import { xCaseInsensitiveMap} from 'x-case-insensitive-map'
 
    // Create an instance of xCaseInsensitiveMap
    const caseInsensitiveMap = new xCaseInsensitiveMap<string, any>();
+
+2. Import the `xCaseInsensitiveMap` class into your Javascript code:
+
+   ```javascript
+   const { xCaseInsensitiveMap } = require("x-case-insensitive-map")
+
+   // Create an instance of xCaseInsensitiveMap
+   const caseInsensitiveMap = new xCaseInsensitiveMap();
 
 ## Notes
 
