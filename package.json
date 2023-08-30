@@ -1,7 +1,7 @@
 {
   "name": "x-case-insensitive-map",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "**xCaseInsensitiveMap** is a TypeScript class that provides a map implementation supporting case-insensitive keys. It allows you to store key-value pairs where the keys are treated as case-insensitive. This is achieved by generating permutations of the keys in both lowercase and uppercase forms, enabling case-insensitive lookups and retrievals.",
   "main": "xCaseInsensitiveMap.ts",
   "devDependencies": {
     "@types/jest": "^29.5.4",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "npx jest",
-    "build": "npx tsc xCaseInsensitiveMap.ts --outDir ./dist"
+    "build": "npx tsc xCaseInsensitiveMap.ts"
   },
   "author": "nhutdm",
   "license": "MIT"
