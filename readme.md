@@ -31,3 +31,6 @@ Keep in mind that the approach of generating permutations for every key can have
 
 This class is designed to work primarily with string keys. Using non-string keys might lead to unexpected behavior.
 
+## Support Me
+
+If you find this project helpful or want to show your appreciation, you can support me by [buying me a coffee](https://www.buymeacoffee.com/nhutdm). Your support is greatly appreciated!
